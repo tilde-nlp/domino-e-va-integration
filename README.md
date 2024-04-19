@@ -22,7 +22,7 @@ For instance, if a user enters data into a form, you can transmit this data to t
         function handleSubmit(event) {
             event.preventDefault();
             const inputText = document.getElementById('textInput').value;
-            `command_from_page_to_bot`('command 1: ' + inputText);
+            command_from_page_to_bot('command 1: ' + inputText);
         }
 
         const form = document.getElementById('myForm');
@@ -33,7 +33,7 @@ For instance, if a user enters data into a form, you can transmit this data to t
 A JavaScript function called `command_from_bot_to_page` is set up to send information from the Virtual Assistant to the page. This information can be utilized if you want the Virtual Assistant to notify the page about an event or perform an action on the page. In such cases, the Virtual Assistant generates a specific message containing instructions for the page. Subsequently, the `command_from_bot_to_page` function on the page is invoked to manage the message from the Virtual Assistant. The following example demonstrates how to handle messages from the Virtual Assistant. The single message handling function is capable of managing multiple diverse notifications.
 ```html
     <script>
-        function `command_from_bot_to_page`(command) {
+        function command_from_bot_to_page(command) {
             if (command == "zoomin") {
                 ...
             }
