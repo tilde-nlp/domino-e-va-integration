@@ -29,3 +29,24 @@ For instance, if a user enters data into a form, you can transmit this data to t
         form.addEventListener('submit', handleSubmit);
     </script>
 ```
+## How to send information from the Virtual Assistant to page
+A JavaScript function called `command_from_bot_to_page` is set up to send information from the Virtual Assistant to the page. This information can be utilized if you want the Virtual Assistant to notify the page about an event or perform an action on the page. In such cases, the Virtual Assistant generates a specific message containing instructions for the page. Subsequently, the `command_from_bot_to_page` function on the page is invoked to manage the message from the Virtual Assistant. The following example demonstrates how to handle messages from the Virtual Assistant. The single message handling function is capable of managing multiple diverse notifications.
+```html:
+    <script>
+        function command_from_bot_to_page(command) {
+            if (command == "zoomin") {
+                ...
+            }
+            else if (command == "zoomout") {
+                ...
+            }
+            else if (command == "insert_map") {
+                // add a code that inserts a map in the page
+                ...
+            }
+            else if (command.startsWith("moveto:")) {
+                ...
+            }
+        }
+    </script>
+```
