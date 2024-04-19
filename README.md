@@ -9,7 +9,7 @@ First, integrate the Virtual Assistant JavaScript into the webpage.
 </script>
 ```
 Secondly, include a placeholder indicating the location for embedding the webchat within the webpage.
-```html:
+```html
     <div id="webchat">
         Webchat Placeholder
     </div>
@@ -17,7 +17,7 @@ Secondly, include a placeholder indicating the location for embedding the webcha
 ## How to send information from the page to the Virtual Assistant
 A JavaScript function named `command_from_page_to_bot` is established for dispatching information from the page to the Virtual Assistant. 
 For instance, if a user enters data into a form, you can transmit this data to the virtual assistant as text upon the submission of the form by the user.
-```html:
+```html
    <script>
         function handleSubmit(event) {
             event.preventDefault();
@@ -31,7 +31,7 @@ For instance, if a user enters data into a form, you can transmit this data to t
 ```
 ## How to send information from the Virtual Assistant to page
 A JavaScript function called `command_from_bot_to_page` is set up to send information from the Virtual Assistant to the page. This information can be utilized if you want the Virtual Assistant to notify the page about an event or perform an action on the page. In such cases, the Virtual Assistant generates a specific message containing instructions for the page. Subsequently, the `command_from_bot_to_page` function on the page is invoked to manage the message from the Virtual Assistant. The following example demonstrates how to handle messages from the Virtual Assistant. The single message handling function is capable of managing multiple diverse notifications.
-```html:
+```html
     <script>
         function command_from_bot_to_page(command) {
             if (command == "zoomin") {
