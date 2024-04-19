@@ -1,4 +1,4 @@
-# VAS integration exaple
+# VAS integration example
 
 This demonstration illustrates how a Virtual Assistant service can seamlessly integrate into any HTML page, including the DOMINO-E User Access Service.
 
