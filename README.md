@@ -4,7 +4,7 @@ This demonstration illustrates how a Virtual Assistant service can seamlessly in
 
 ## How to integrate a Virtual Assistant into an HTML page
 First, integrate the Virtual Assistant JavaScript into the webpage.
-```html:
+```html
 <script crossorigin="anonymous" src="https://va.tilde.com/api/prodk8sbotdomin0/media/staging/webchat.js" async defer>
 </script>
 ```
