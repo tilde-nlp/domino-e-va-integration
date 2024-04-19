@@ -1,7 +1,7 @@
 # VAS integration example
 
 This demonstration (see [default.html](default.html)) illustrates how a Virtual Assistant service can seamlessly integrate into any HTML page, including the DOMINO-E User Access Service.
-You can try it out online here: [https://va.tilde.com/api/prodk8sbotdomin0/media/staging/default.html]
+You can try it out online (here)[https://va.tilde.com/api/prodk8sbotdomin0/media/staging/default.html].
 
 ## How to integrate a Virtual Assistant into an HTML page
 First, integrate the Virtual Assistant JavaScript into the webpage.
