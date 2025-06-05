@@ -1,7 +1,11 @@
 # VAS integration example
 
 This demonstration (see [default.html](default.html)) illustrates how a Virtual Assistant service can seamlessly integrate into any HTML page, including the DOMINO-E User Access Service.
-You can try it out online [here](https://va.tilde.com/api/prodk8sbotdomin0/media/staging/default.html). Enter a keyword `insertmap` to start the integration demo.
+You can try it out online [here](https://va.tilde.com/scontent/prodk8sbotdomin0/media/staging/default.html). 
+
+- To see how the Virtual Assistant (VA) can send commands to its hosting page, start a conversation and specify a geographical object. When the map appears in the chat window, click the "Expand" button to open it in the hosting page.
+
+- To see how information can be sent from the hosting page to the VA, enter some text into the input field on the hosting page and click the "Submit" button. The text will be sent to the VA and displayed in the chat.
 
 ## How to integrate a Virtual Assistant into an HTML page
 First, integrate the Virtual Assistant JavaScript into the webpage.
